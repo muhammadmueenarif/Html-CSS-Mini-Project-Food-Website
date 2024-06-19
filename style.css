@@ -62,7 +62,7 @@
     margin-top: 25px;
     margin-left: 80px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(23, 31, 31);
     color: #fff;
     outline: none;
     border: none;
@@ -75,4 +75,78 @@
     background-color: transparent;
     border: 2px solid black;
     cursor: pointer;
+}
+
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.product-list {
+    float: left;
+    width: 33.33%;
+} 
+
+h2 {
+    margin-top: 5px;
+}
+
+.para {
+    max-width: 220px;
+    margin-top: 5px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 3px 3px blue;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 98.7vw;
+    height: 25vh;
+    position: absolute;
+    margin-top: 450px;
+    background-color: aquamarine;
+}
+
+.last input {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    outline: none;
+    border: none;   
+}
+
+.last input::placeholder {
+    padding: 10px;
+}
+
+.last button {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(23, 31, 31);
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.last button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
